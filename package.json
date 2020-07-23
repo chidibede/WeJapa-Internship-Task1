@@ -1,0 +1,27 @@
+{
+  "name": "wejapa-internship-task1",
+  "version": "1.0.0",
+  "description": "First Task for backend dev in wejapa internship",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chidibede/WeJapa-Internship-Task1.git"
+  },
+  "keywords": [
+    "WeJapa",
+    "Internship",
+    "Node",
+    "Backend"
+  ],
+  "author": "Chidi Bede",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chidibede/WeJapa-Internship-Task1/issues"
+  },
+  "homepage": "https://github.com/chidibede/WeJapa-Internship-Task1#readme"
+}
