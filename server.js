@@ -2,7 +2,7 @@ const http = require("http");
 
 const returnStatement = "Hello World, welcome to WeJapa Internships";
 const server = http.createServer((req, res) => {
-    if (req.url === '/'){
+    if (req.url === '/' && req.method === 'GET'){
         res.writeHead(200, { "content-type": "text/plain" });
         res.write(returnStatement);
         res.end();
